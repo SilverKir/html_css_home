@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+}
+
+.header{
+    margin-top: 40px;
+}
+
+.nav__panel{
+    margin-top: 11px;
+    margin-bottom: 12px;
+}
+
+.section{
+    margin-top: 84px;
+ 
+}
+
+.content__text{
+    margin-top: 17px;
+}
+
+.buttons{
+    margin-top: 37px;
+}
+
+.start__button{
+    width: 140px;
+    height: 60px;
+    border-radius: 50px;
+    background: rgb(242, 88, 34);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 400;
+ }
+ 
+.video__btn{
+    margin-left: 72px;
+}
+
+.section__img{
+    margin-left: 41px;
+}
+
+.footer{
+    margin-top: 259px;   
+}
+
+.footer__logo:not(:first-child){
+    margin-left: 48px;
+}
+
