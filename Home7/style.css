@@ -3,7 +3,7 @@
     padding: 0;
 }
 
- a{
+a{
     text-decoration: none;
 }
 
@@ -19,7 +19,6 @@ body {
 
 .header{
     background: #222;
-    min-height: 75px;
 }   
 
 .header__wrap{
@@ -28,6 +27,7 @@ body {
     align-items:center;
     min-height: 75px;
 }
+
 .header__logo_panel {
     display: flex;
     gap: 41px;
@@ -44,30 +44,31 @@ body {
     background: rgb(241, 228, 230);
 }
 
+
 .main__section__wrap{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    gap: 63px;
 }
 
+.main__img{
+    margin-left: -219px;
+    width: 70%;
+}
 
-.main__title{
-    margin-left: 63px;
+.title__box{  
+    border-left: 12px solid rgb(241, 109, 127) ;
     display: flex;
     align-items: center;
 }
 
-.title__box{
-    height: 92px;
-    width: 12px;
-    background: rgb(241, 109, 127);
-}
-
-
 .title__text{
     margin-left: 16px;
     text-transform: uppercase;
+    width: 377px;
 }
+
 .title{
     font-weight: 900;
     font-size: 48px;
@@ -94,10 +95,11 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-size: cover;
 }
 .item1{
     background-image: url("./img/women.png");
-    background-size:auto;
+    
 }
 
 .item2{
@@ -209,10 +211,54 @@ background: rgb(248, 248, 248);
     text-align: center;
 }
 
-@media(max-width:1024px){
-.center{
-    padding-left: 16px;
-    padding-right: 16px;
-}
+@media(max-width: 1024px){
+    .center{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .header__wrap{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .main__section__wrap{
+        gap:39px; 
+    }
+    .main__img{
+        margin: 0;
+        width: 52%;
+    }
+    .title__text{
+        width:100%;
+    }
 
+    .title{
+        font-size: 44px;
+    }
+    .subtitle{
+        font-size: 24px;
+    }
+    .items__list{
+        gap:20px;
+        grid-template-rows: repeat(2, 168px);
+    }
+
+    .item{
+        background-size: cover;
+    }
+
+    .featured__section{
+        margin-top: 110px;
+    }
+
+    .featured__list{
+        margin-top: 73px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 16px;
+        margin-bottom: 32px;
+
+    }
+    .browse__all__btn{
+        margin-bottom: 70px;
+    }
 }
