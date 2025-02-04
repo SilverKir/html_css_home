@@ -80,7 +80,7 @@ body {
 }
 
 .service__description{
-    width: 682px;
+    max-width: 682px;
     color: rgb(102, 102, 102);
     font-family: Gilroy-Regular;
     font-size: 16px;
@@ -120,7 +120,7 @@ body {
 
 }
 .service__item__text{
-    width: 310px;
+    max-width: 310px;
     color: rgb(170, 170, 170);
     font-family: Gilroy-Regular;
     font-size: 15px;
