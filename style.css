@@ -348,14 +348,9 @@ body {
     
 }  
 
-
-.dropdown__list{
+.dropdown__title{
     margin-left: 33px;
     margin-top: 32px;
-    margin-bottom: 32px;
-}
-
-.dropdown__title{
     color: rgb(0, 0, 0);
     font-size: 14px;
     font-weight: 700;
@@ -365,6 +360,14 @@ body {
     text-transform: uppercase;
     margin-bottom: 4px;
 }
+
+
+.dropdown__list{
+    margin-left: 33px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
 
 .dropdown__item{
     margin-top: 20px;
